@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['style']
 handler.tags = ['tools']
-handler.command = /^(خط(text)?)$/i
+handler.command = /^(2خط(text)?)$/i
 
 handler.limit = false
 
